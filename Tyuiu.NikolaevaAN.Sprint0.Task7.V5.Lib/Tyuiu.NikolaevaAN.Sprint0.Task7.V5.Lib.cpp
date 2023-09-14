@@ -17,7 +17,7 @@ public:
 		int c5 = (c / 100) % 10;
 		int c6 = (c / 10) % 10;
 		int c7 = c % 10;
-		bool l = (c1 == a) || (c2 == a) || (c3 == a) || (c4 == a) || (c5 == a) || (c6 == a) || (c7 == a);
-		return l;
+		bool z = (c1 == a) || (c2 == a) || (c3 == a) || (c4 == a) || (c5 == a) || (c6 == a) || (c7 == a);
+		return z;
 	}
 };

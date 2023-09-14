@@ -16,13 +16,13 @@ namespace TyuiuNikolaevaANSprint0Task7V5Test
 			ISprint0Task7* date = new ISprint0Task7();
 			int c = 1234567;
 			int a = 4;
-			int l;
+			int z;
 
 			// run
-			l = date->Add(c, a);
+			z = date->Add(c, a);
 
 			// Valid
-			Assert::AreEqual(1, l);
+			Assert::AreEqual(1, z);
 		}
 	};
 }
